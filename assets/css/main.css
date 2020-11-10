@@ -1,0 +1,108 @@
+---
+---
+
+body {
+    background-image: url('{{site.url}}/assets/images/farm-bg-fade-2.jpg');
+
+    background-position: center center;
+    
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+    
+    background-size: cover;
+
+    background-color: #464646;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    
+
+  }
+
+/*home page*/
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('{{site.url}}/assets/images/lautoka-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.home h1{
+    color: white;
+    font-weight: bold;
+}
+
+.home h4{
+    color: white;
+    font-weight: bold;
+}
+
+/*fig caption*/
+
+figure figcaption {
+    text-align: center;
+}
+
+/*about*/
+
+.about{
+    padding: 1em;
+    position: relative;
+}
+
+.about img{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%
+}
+
+.about span{
+    display: block;
+    position: absolute;
+    left: 15%;
+}
+
+/*research*/
+
+.research {
+    padding: 1em;
+    position: relative;
+}
+
+.research .card-img img{
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.research .circle img{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%
+}
+
+/*training*/
+
+.training {
+    padding: 1em;
+    position: relative;
+}
+
+/*resources*/
+
+.resources {
+    padding: 1em;
+    position: relative;
+}
+
+/*team*/
+
+.team {
+    padding: 1em;
+    position: relative;
+}
