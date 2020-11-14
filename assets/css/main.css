@@ -17,8 +17,15 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
 
-    
+    position: relative;
 
+
+    
+  }
+
+/*footer*/
+.footer {
+    flex-shrink: 0;
   }
 
 /*home page*/
@@ -103,6 +110,39 @@ figure figcaption {
 /*team*/
 
 .team {
+    padding: 1em;
+    position: relative;
+}
+
+/*use cases*/
+
+.use-case-home{
+    flex: 1 0 auto;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    padding: 1em;
+    position: relative;
+}
+
+.use-case{
+    padding: 1em;
+    position: relative;
+}
+
+.use-case img{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%
+}
+
+/*apps*/
+
+.apps-home{
+    flex: 1 0 auto;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
     padding: 1em;
     position: relative;
 }
