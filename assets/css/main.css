@@ -136,6 +136,11 @@ figure figcaption {
     border-radius: 50%
 }
 
+.use-case .hh-survey img{
+    height: 100%;
+    width: 90%;
+}
+
 /*apps*/
 
 .apps-home{
