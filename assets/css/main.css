@@ -130,16 +130,6 @@ figure figcaption {
     position: relative;
 }
 
-.use-case img{
-    height: 90%;
-    width: 90%;
-    border-radius: 50%
-}
-
-.use-case .hh-survey img{
-    height: 100%;
-    width: 90%;
-}
 
 /*apps*/
 
