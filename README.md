@@ -1,1 +1,3 @@
-# livelihoods-and-landscapes.github.io
+# Livelihoods and Landscapes project website
+
+Website at: https://livelihoods-and-landscapes.github.io
