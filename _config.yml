@@ -3,7 +3,7 @@ email: john.duncan@uwa.edu.au
 description: >- # this means to ignore newlines until "baseurl:"
   Mobile, desktop, and cloud geospatial applications to support climate-smart landscape management in Pacific Island Countries.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "livelihoods-and-landscapes.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://livelihoods-and-landscapes.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jmad1v07
 
 # Build settings
