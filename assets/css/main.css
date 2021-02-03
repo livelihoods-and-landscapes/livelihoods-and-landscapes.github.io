@@ -21,6 +21,9 @@ body {
     
   }
 
+p {
+    font-size: larger;
+ } 
 /*footer*/
 .footer {
     flex-shrink: 0;
