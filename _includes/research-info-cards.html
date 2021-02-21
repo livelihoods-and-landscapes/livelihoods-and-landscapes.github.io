@@ -1,98 +1,24 @@
-<div class="container" style="margin-top:120px; margin-bottom:-60px;"> 
+<div class="container" style="margin-top:20px; margin-bottom:10px;"> 
 
     <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-            <h4><em>Click an icon...</em></h4>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <h4><em>An open-source workflow to map and monitor diverse landscaes...</em></h4>
         </div>
     </div>
 
 
     <div class="row d-flex justify-content-around">
 
-      <!-- Livelihoods and landscapes modal -->
-        <div class="col-lg-2 col-md-2 col-sm-12 mb-4">
-            
-            <div class="card border-secondary mb-4 h-100">
-                <div class="card-body">
-                    <div class="text-center">
-                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#landscapeContext">
-                            <i class="fa fa-seedling fa-5x"></i>
-                        </button>
-                        <p class="card-text">Links between landscape resources, climate stressors, and livelihoods.</p>
-                    </div>
-                </div>
-            </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="landscapeContext" tabindex="-1" role="dialog" aria-labelledby="landscapeContextLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg" role="document">
-               
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="landscapeContextLabel">Livelihood-Landscape links</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p>To understand the links between landscape resources, livelihoods, and climatic impacts to landscape resources we undertook the following activities:
-                            <ul>
-                                <li>Household survrey of coastal communities in Ba to estimate the value of ecosystem service flows from landscape resources and the sensitivity of these flows to climatic shocks.</li>
-                                <li>Participatory modelling exercises in Fiji and Tonga to capture cause-effect-response relationships associated with problems people face in using landscape resources.</li>
-                                <li>Semi-structured interviews with key landscape stakeholders at national and local levels.</li>
-                                <li>Linking coastal / mangrove based livelihood activities with remotely sensed indicators of mangrove health.</li>
-                                <li>Fieldwork in the Ba mangroves, Fiji, to identify patterns of carbon sequestration and spatial patterns of ecosystem condition.</li>
-                            </ul>
-                        </p>
-                        <p>
-                            The information gathered through these activities underpins the application development process.
-                        </p>
-                        <div class="text-center">
-                            <figure>
-                                <img src="{{site.url}}/assets/images/hh-survey-small.jpg" class="img-fluid">
-                                <figcaption>Household survey in coastal fishing communities, Ba, Fiji.</figcaption>
-                            </figure>
-                        </div>
-                        <div class="text-center">
-                            <figure>
-                                <img src="{{site.url}}/assets/images/coconut-adaptation.jpg" class="img-fluid">
-                                <figcaption>Using coconut palm leaves to shade vegetables and protect them from warming temperatures, Ba, Fiji.</figcaption>
-                            </figure>
-                        </div>
-                        
-                        <div class="text-center">
-                            <figure>
-                                <img src="{{site.url}}/assets/images/mangrove-infographic.png" class="img-fluid">
-                                <figcaption>Carbon sequestration and mangrove infographic.</figcaption>
-                            </figure>
-                        </div>
-                        <div class="text-center">
-                            <figure>
-                                <img src="{{site.url}}/assets/images/AGU2018-slides_image-1.jpg" class="img-fluid">
-                                <figcaption>Mangrove condition pre- and post-Tropical Cyclone Winston, Ba, Fiji.</figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div><!-- col end -->
-
       <!-- mobile data collection modal -->
-    <div class="col-lg-2 col-md-2 col-sm-12 mb-4">
-
+      <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
         <div class="card border-secondary mb-4 h-100">
             <div class="card-body">
                 <div class="text-center">
                     <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#mobileGIS">
                         <i class="fa fa-map-marked-alt fa-5x"></i>
                     </button>
-                    <p class="card-text">Use mobile GIS to map landscape features and document their attributes in the field.</p>
+                    <h4>In The Field</h4>
+                    <p class="card-text">Map landscapes with mobile GIS.</p>
                 </div>
             </div>
         </div>
@@ -131,18 +57,18 @@
                 </div>
             </div>
         </div>
-
-    </div><!--col-->
+      </div><!--col-->
 
       <!-- data management modal -->
-      <div class="col-lg-2 col-md-2 col-sm-12 mb-4">
+      <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
         <div class="card border-secondary mb-4 h-100">
           <div class="card-body">
             <div class="text-center">
               <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#dataMgmt">
                 <i class="fa fa-chart-area fa-5x"></i>
               </button>
-              <p class="card-text">Dashboards, servers, and databases to manage and analyse geospatial data.</p>
+              <h4>In The Cloud</h4>
+              <p class="card-text">Server apps and databases to sync data collected on mobile devices.</p>
             </div>
           </div>
         </div>
@@ -158,16 +84,60 @@
                 </button>
               </div>
               <div class="modal-body">
-              
                 <p>
-                    We have developed server apps and spatial databases for managing geospatial data collected in-the-field using QField. Spatial dashboards are used for data syncing
-                     and exploration using dynamic tables, web maps, and charts.
+                    We have developed a server application and spatial databases for secure management geospatial data collected in-the-field using QField on multiple mobile devices. Using a simple deployment process, set up secure cloud storage and a web application to manage data collected in-the-field. Data collectors using QField can can submit their landscape data via a web form in their browser and the server app will screen this data and add it to secure cloud storage.
                     <ul>
                         <li>Web forms to submit data collected on mobile devices.</li>
                         <li>Express.js server-side app to handle submitted data and interface with secure cloud storage.</li>
-                        <li>map.landscape - Shiny dashboard for data management, analysis, and visualisation.</li>
                     </ul> 
                 </p>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--col-->
+
+      <!-- dashboard modal -->
+      <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
+        <div class="card border-secondary mb-4 h-100">
+          <div class="card-body">
+            <div class="text-center">
+              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#dashboard">
+                <i class="fa fa-chart-area fa-5x"></i>
+              </button>
+              <h4>On Your Desktop</h4>
+              <p class="card-text">Use dashboards to analyse and visualise landscape data collected in-the-field.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="dashboard" tabindex="-1" role="dialog" aria-labelledby="dashboardLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="dashboardLabel">Data management and visualisation</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <p>We developed a dashboard application to explore geospatial data using interactive tables, web maps, and charts. map.landscape is developed using the <a href="https://shiny.rstudio.com" target="_blank">Shiny</a> framework. It uses <a href="https://dplyr.tidyverse.org" target="_blank">dplyr</a> for data processing and <a href="https://r-spatial.github.io/sf/" target="_blank">sf</a> for handling spatial data.</p>
+                  <p>The motivation to develop map.landscape was to quickly explore and sync data collected using <a href="https://qfield.org" target="_blank">QField</a> mobile GIS. However, it supports spatial and non-spatial data in GeoPackage files and is relevant for a range of data exploration and visualisation use cases.</p>
+                  <ul>
+                    <li>Sync data collected using QField on different mobile devices.</li>
+                    <li>Upload spatial and non-spatial tabular data as GeoPackage or zip files.</li>
+                    <li>Explore data in interactive tables (using <a href="https://rstudio.github.io/DT/" target="_blank">DataTables</a>).</li>
+                    <li>Combine tabular data using spatial and non-spatial joins.</li>
+                    <li>Create summary tables.</li>
+                    <li>Create and style web maps (using <a href="https://rstudio.github.io/leaflet/" target="_blank">Leaflet</a>).</li>
+                    <li>Visualise data using different charts (using <a href="https://ggplot2.tidyverse.org" target="_blank">ggplot2</a>).</li>
+                  </ul> 
+
 
                 <figure>
                     <img src="{{site.url}}/assets/images/dashboard-ui.png" class="img-fluid">
@@ -184,14 +154,15 @@
       </div><!--col-->
 
       <!-- land use mapping modal -->
-      <div class="col-lg-2 col-md-2 col-sm-12 mb-4">
+      <div class="col-lg-3 col-md-3 col-sm-12 mb-4">
         <div class="card border-secondary mb-4 h-100">
           <div class="card-body">
             <div class="text-center">
               <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#lulc">
                 <i class="fa fa-satellite fa-5x"></i>
               </button>
-              <p class="card-text">Use satellite images and machine learning to monitor inter-annual land cover dynamics within landscapes.</p>
+              <h4>At Scale</h4>
+              <p class="card-text">Use satellite images and machine learning to monitor inter-annual landscape dynamics.</p>
             </div>
           </div>
         </div>
@@ -227,44 +198,6 @@
           </div>
         </div>
       </div><!--col-->
-
-      <!-- System Diagram modal -->
-      <div class="col-lg-2 col-md-2 col-sm-12 mb-4">
-        <div class="card border-secondary mb-4 h-100">
-          <div class="card-body">
-            <div class="text-center">
-              <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#systemDiagram">
-                <i class="fa fa-project-diagram fa-5x"></i>
-              </button>
-              <p class="card-text">Software components required to collect and analyse geospatial data from landscapes.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="systemDiagram" tabindex="-1" role="dialog" aria-labelledby="systemDiagramLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="systemDiagramLabel">System Architecture Diagram</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <figure>
-                  <img src="{{site.url}}/assets/images/system-diagram.png" class="img-fluid">
-                  <figcaption></figcaption>
-                </figure>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div><!--col-->
-
 
     </div> <!--row-->
   </div> <!--container-->
