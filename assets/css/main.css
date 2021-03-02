@@ -68,9 +68,9 @@ figure figcaption {
 }
 
 .about img{
-    height: 90%;
-    width: 90%;
-    border-radius: 50%
+    height: 100%;
+    width: 100%;
+    border-radius: 5%
 }
 
 .about span{
