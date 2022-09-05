@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title></title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">Livelihoods and Landscapes</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html">Research</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../examples.html">Examples</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../docs/docs.html" aria-current="page">Docs</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../outputs.html">Outputs</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../team.html">Team</a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/livelihoods-and-landscapes"><i class="bi bi-github" role="img">
+</i> 
+ </a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../docs/docs.html" class="sidebar-item-text sidebar-link">Docs</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../docs/tutorials.html" class="sidebar-item-text sidebar-link active">Tutorials</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../docs/guides.html" class="sidebar-item-text sidebar-link">Best Practice Guides</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../docs/reference.html" class="sidebar-item-text sidebar-link">Reference</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tutorials" id="toc-tutorials" class="nav-link active" data-scroll-target="#tutorials">Tutorials</a></li>
+  <li><a href="#create-data-collection-projects" id="toc-create-data-collection-projects" class="nav-link" data-scroll-target="#create-data-collection-projects">Create data collection projects</a>
+  <ul class="collapse">
+  <li><a href="#get-started" id="toc-get-started" class="nav-link" data-scroll-target="#get-started">Get started</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading">Further reading</a></li>
+  </ul></li>
+  <li><a href="#collect-data-with-qfield" id="toc-collect-data-with-qfield" class="nav-link" data-scroll-target="#collect-data-with-qfield">Collect data with QField</a>
+  <ul class="collapse">
+  <li><a href="#get-started-1" id="toc-get-started-1" class="nav-link" data-scroll-target="#get-started-1">Get started</a></li>
+  <li><a href="#further-reading-1" id="toc-further-reading-1" class="nav-link" data-scroll-target="#further-reading-1">Further reading</a></li>
+  </ul></li>
+  <li><a href="#qfieldcloud-for-project-management" id="toc-qfieldcloud-for-project-management" class="nav-link" data-scroll-target="#qfieldcloud-for-project-management">QFieldCloud for project management</a>
+  <ul class="collapse">
+  <li><a href="#opengis.chs-hosted-version" id="toc-opengis.chs-hosted-version" class="nav-link" data-scroll-target="#opengis.chs-hosted-version">OPENGIS.ch’s hosted version</a></li>
+  <li><a href="#manage-your-own-qfieldcloud-instance" id="toc-manage-your-own-qfieldcloud-instance" class="nav-link" data-scroll-target="#manage-your-own-qfieldcloud-instance">Manage your own QFieldCloud instance</a></li>
+  </ul></li>
+  <li><a href="#geospatial-data-visualisation-and-analysis" id="toc-geospatial-data-visualisation-and-analysis" class="nav-link" data-scroll-target="#geospatial-data-visualisation-and-analysis">Geospatial data visualisation and analysis</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="tutorials" class="level2">
+<h2 class="anchored" data-anchor-id="tutorials">Tutorials</h2>
+<p>These tutorials will teach you how to use the <strong>maplanscape</strong> workflow to set up a data collection project, map features in-the-field and capture information using digital forms, share the project with a team of collaborators, visualise project data on web maps and dashboards, and automate reporting tasks that use field data.</p>
+<p>The tutorials are based on an example of setting up a farm survey in Fiji or Tonga. However, the concepts and skills you will learn can be applied to a range of data collection tasks such as household surveys, baseline and project monitoring and evaluation, ground truth data generation for remote sensing and cover classification, or detailed GIS mapping.</p>
+</section>
+<section id="create-data-collection-projects" class="level2">
+<h2 class="anchored" data-anchor-id="create-data-collection-projects">Create data collection projects</h2>
+<p>Learn how to use <a href="https://www.qgis.org/en/site/" class="external" target="_blank">QGIS</a> to create a data collection project for use with the mobile GIS application <a href="https://qfield.org" class="external" target="_blank">QField</a>. Push the project to <a href="https://qfield.cloud/" class="external" target="_blank">QFieldCloud</a> to share with large teams of data collectors and automatically sync project data collected across many mobile devices.</p>
+<p>This tutorial demonstrates the key concepts and process required to create a data collection project. You will learn how to:</p>
+<ul>
+<li>create a database file to store project data</li>
+<li>style and theme map layers</li>
+<li>create digital forms for collecting non-spatial data</li>
+<li>use online and offline basemaps</li>
+<li>push and synchronise projects with <a href="https://qfield.cloud/" class="external" target="_blank">QFieldCloud</a></li>
+<li>tips and tricks for minimising data collection error</li>
+</ul>
+<section id="get-started" class="level3">
+<h3 class="anchored" data-anchor-id="get-started">Get started</h3>
+<div class="grid m-5">
+<div class="g-col-md-4 g-col-12">
+<div class="card border-secondary mb-1 h-100">
+<div class="card-body text-center">
+<p><a href="https://www.qgis.org/en/site/forusers/download.html" class="external" target="_blank">Install QGIS</a> on your computer.</p>
+</div>
+</div>
+</div>
+<div class="g-col-md-4 g-col-12">
+<div class="card border-secondary mb-1 h-100">
+<div class="card-body text-center">
+<p>Download the tutorial data:</p>
+<div class="text-left">
+<p><a href="https://github.com/livelihoods-and-landscapes/tutorial-data-qfield-project-creation/raw/main/Fiji.zip" class="external" target="_blank">Fiji example</a> or <a href="https://github.com/livelihoods-and-landscapes/tutorial-data-qfield-project-creation/raw/main/Fiji.zip" class="external" target="_blank">Tonga example</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="g-col-md-4 g-col-12">
+<div class="card border-secondary mb-1 h-100">
+<div class="card-body text-center">
+<p>Start the tutorial <a href="https://docs.google.com/presentation/d/e/2PACX-1vSXfuFGVmJMyrMdfnyfgKJwB1cG6aeHdYN-YfYz5h6EbAWHE5uJC5Ii8sWH6rv6v0DOE5yFIaiTGkNq/pub?start=false&amp;loop=false&amp;delayms=3000" class="external" target="_blank">here</a>.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="further-reading" class="level3">
+<h3 class="anchored" data-anchor-id="further-reading">Further reading</h3>
+<p>Explore the official QField docs for getting started with <a href="https://docs.qfield.org/get-started/tutorials/get-started-qfc/" class="external" target="_blank">QFieldCloud</a> and <a href="https://docs.qfield.org/get-started/tutorials/get-started-qfs/" class="external" target="_blank">QFieldSync</a>. The <a href="https://docs.qfield.org/how-to/" class="external" target="_blank">QField How-to guides</a> have lots of tips and examples for creating great data collection projects.</p>
+</section>
+</section>
+<section id="collect-data-with-qfield" class="level2">
+<h2 class="anchored" data-anchor-id="collect-data-with-qfield">Collect data with QField</h2>
+<section id="get-started-1" class="level3">
+<h3 class="anchored" data-anchor-id="get-started-1">Get started</h3>
+</section>
+<section id="further-reading-1" class="level3">
+<h3 class="anchored" data-anchor-id="further-reading-1">Further reading</h3>
+</section>
+</section>
+<section id="qfieldcloud-for-project-management" class="level2">
+<h2 class="anchored" data-anchor-id="qfieldcloud-for-project-management">QFieldCloud for project management</h2>
+<p><a href="https://qfield.cloud/" class="external" target="_blank">QFieldCloud</a> is a Django based service developed by <a href="https://www.opengis.ch/" class="external" target="_blank">OPENGIS.ch</a> for synchronising field data from data collectors using QField with a central project, managing user accounts, and versioning project data.</p>
+<section id="opengis.chs-hosted-version" class="level3">
+<h3 class="anchored" data-anchor-id="opengis.chs-hosted-version">OPENGIS.ch’s hosted version</h3>
+<p><a href="https://www.opengis.ch/" class="external" target="_blank">OPENGIS.ch</a> provide hosted version of <a href="https://qfield.cloud/" class="external" target="_blank">QFieldCloud</a>. It is easy to get up and running using this service. You just need to sign up at <a href="https://qfield.cloud/" class="external" target="_blank">QFieldCloud</a>, choose a plan, and start a collaborative data collection project. This service is also kept in-sync with development of <a href="https://qfield.org" class="external" target="_blank">QField</a>.</p>
+<p>Follow the QFieldCloud <a href="https://docs.qfield.org/get-started/tutorials/get-started-qfc/" class="external" target="_blank">get started</a> and <a href="https://docs.qfield.org/get-started/tutorials/advanced-setup-qfc/" class="external" target="_blank">advanced setup</a> tutorials to learn how to use OPENGIS.ch’s hosted QFieldCloud service.</p>
+</section>
+<section id="manage-your-own-qfieldcloud-instance" class="level3">
+<h3 class="anchored" data-anchor-id="manage-your-own-qfieldcloud-instance">Manage your own QFieldCloud instance</h3>
+<p>Follow the instructions on the <a href="https://github.com/opengisch/qfieldcloud" class="external" target="_blank">QFieldCloud GitHub repo</a> to deploy your own instance of QFieldCloud.</p>
+<p>To manage your own instance of QFieldCloud, you can use the <a href="https://github.com/livelihoods-and-landscapes/maplandscape-admin" class="external" target="_blank"><em>maplandscape</em> admin</a> web application.</p>
+<section id="get-started-2" class="level4">
+<h4 class="anchored" data-anchor-id="get-started-2">Get started</h4>
+<div class="grid m-5">
+<div class="g-col-md-6 g-col-12">
+<div class="card border-secondary mb-1 h-100">
+<div class="card-body text-center">
+<p>Use docker and Shiny Proxy to deploy <a href="https://github.com/livelihoods-and-landscapes/maplandscape-admin" class="external" target="_blank"><em>maplandscape</em> admin</a> anywhere.</p>
+</div>
+</div>
+</div>
+<div class="g-col-md-6 g-col-12">
+<div class="card border-secondary mb-1 h-100">
+<div class="card-body text-center">
+<p>A short tutorial on using <em>maplandscape-admin</em> <a href="https://docs.google.com/presentation/d/e/2PACX-1vT2i88Z9XFtANFxrxT99kc7uExCgySM_lqT1kMbunJ41am6dJ92g7Siu7TNEdOnPdoHDc2Rd0Y73cd_/pub?start=false&amp;loop=false&amp;delayms=3000" class="external" target="_blank">here</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<p>This tutorial will show you how to use <em>maplandscape-admin</em> to browse project data and collaborators, invite collaborators to join a project, assign user roles and permissions to collaborators on a project, and reset or change your QFieldCloud password.</p>
+</section>
+</section>
+</section>
+<section id="geospatial-data-visualisation-and-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="geospatial-data-visualisation-and-analysis">Geospatial data visualisation and analysis</h2>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

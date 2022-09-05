@@ -1,0 +1,219 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "In Pacific Island Countries, the environmental resources that support livelihoods are distributed across landscapes in a mix of spatial patterns.\nCapturing this spatial detail in landscape use is important to inform landscape management, monitoring of programs and policies, and understanding change in environmental resources and rural livelihoods.\nThis research uses a collaborative software development methodology ICT4D to:"
+  },
+  {
+    "objectID": "research.html#maplandscape",
+    "href": "research.html#maplandscape",
+    "title": "Research",
+    "section": "maplandscape",
+    "text": "maplandscape\nmaplandscape is a workflow for:\n\nfield-based mapping and survey data collection.\nusing field data for monitoring, management, and decision making.\n\n\n\nField data collection\nOver 100 mobile GIS data collection apps were reviewed against a set of technical criteria and criteria defined by stakeholders and end-user requirements.\nQField was identified as the most suitable app for capturing geospatial information in-the-field.\nQField is open-source and integrates easily with relational databases, supports viewing spatial layers in-the-field, and provides a touch-optimised map interface for digitising spatial features and digital forms for capturing attribute and non-spatial data.\nQField provides functionality for online and offline data collection.\n\n\n\nDigitise features on the map and complete surveys using digital forms with QField.\n\n\n\n\n\n\n\n\nTip\n\n\n\nHead to the docs to find tutorials and learning resources for setting up your own data collection projects.\n\n\n\n\nManaging teams and projects\nQFieldCloud, an open-source Django web service app developed by OPENGIS.ch, is used to manage users and data collection projects.\nQFieldCloud provides tools for managing users and collaborators on data collection projects, secure cloud storage of project data, and keeping versions of project data. QFieldCloud API can be used to build custom web applications that use field data.\nQFieldCloud’s push changes mode allows data collectors operating in low bandwidth environments to back up their local data oto the cloud avoiding a data heavy full project synchronisation.\n\n\nAnalysis and visualisation\nUsing QFieldCloud’s API, web applications have been developed to allow non-GIS experts to analyse QField data in their web browser.\nThese applications make QField data quickly accessible to decision makers and data can be viewed and analysed on web maps, interactive tables, and charts.\nThere are tools for automated reporting from QField data and geospatial and relational database analysis operations can be accessed via simple user interface.\n\n\n\nAnalyse field data with interactive web maps"
+  },
+  {
+    "objectID": "research.html#landscape-mapping-with-satellites",
+    "href": "research.html#landscape-mapping-with-satellites",
+    "title": "Research",
+    "section": "Landscape mapping with satellites",
+    "text": "Landscape mapping with satellites\nTo map landscapes at large scales and quickly, we’ve developed a machine learning algorithm that can generate inter-annual land cover maps at a 10 m spatial resolution using ESA Sentinel-2 images and ancillary datasets.\n\n\n\n2017-2018 land cover map for Ba, Fiji.\n\n\nInitial field validation of this method has been undertaken in Ba, Fiji, using QField and in collaboration with the Ministry of Forests Forest Resource and Assessment Group (FRAC) and Fiji’s Ministry of Agriculture as part of a Climate Change AI Innovation Grant.\nThese land cover maps are being integrated with the maplandscape workflow as part of a system to generate cropland flood maps after Tropical Cyclone events in Fiji which are used base layers in QField for conducting damage assessments.\n\n\n\nCropland flood maps as reference layers in QField for damage assessment in Fiji. Basemap sources: OSMBright from OpenMapTiles and ESRI World Imagery."
+  },
+  {
+    "objectID": "research.html#collaborative-development",
+    "href": "research.html#collaborative-development",
+    "title": "Research",
+    "section": "Collaborative Development",
+    "text": "Collaborative Development\nmaplandscape was developed using an ICT4D process. It’s a field validated framework for developing ICT systems in contexts where previously there was not a history or culture of using digital technologies.\nThe ICT4D process covers the ICT sytem deployment lifecycle from identifying end user needs and requirements through to deployment and ensuring sustained uptake. It’s collaborative process that draws upon agile software development and action research.\nmaplandscape was developed over several years with developers, resaerchers, GIS analysts, and end users from Tonga’s Ministry of Agriculture, Food, and Forests collaborating, designing and testing prototype applications, and refining requirements.\nThe maplandscape workflow was designed and developed iteratively starting with identifying requirements for in-the-field data collection through to scaling up the system to support large teams and building tools to make field data quickly accessible for decision makers.\n\n\n\nIterative development process to design maplandscape."
+  },
+  {
+    "objectID": "research.html#training",
+    "href": "research.html#training",
+    "title": "Research",
+    "section": "Training",
+    "text": "Training\nWe develop training materials and deliver workshops to build the capacity of landscape stakeholders to use GIS applications to collect geospatial data and support landscape decision making and management.\nWe have run training sessions and workshops with officials from government ministries, NGOs, and other landscape stakeholders.\n\n\n\n\n\n\nTip\n\n\n\nAll the training materials are freely available online and you can follow a set of tutorials to set up a data collection project with QField, share it with your team, and view your field data on web maps.\n\n\n\n\n\n\n\n\nLand cover mapping training with Google Earth Engine.\n\n\n\n\n\n\n\nField workshops using QField for crop surveys."
+  },
+  {
+    "objectID": "outputs.html",
+    "href": "outputs.html",
+    "title": "Outputs",
+    "section": "",
+    "text": "All applications and software developed through this project are open source and published to GitHub."
+  },
+  {
+    "objectID": "outputs.html#data",
+    "href": "outputs.html#data",
+    "title": "Outputs",
+    "section": "Data",
+    "text": "Data\nProject data is published on Pacific Data Hub."
+  },
+  {
+    "objectID": "outputs.html#blogs-and-news",
+    "href": "outputs.html#blogs-and-news",
+    "title": "Outputs",
+    "section": "Blogs and news",
+    "text": "Blogs and news\n\nGround Truth Data Collection Using QField for LULC Mapping in Fiji\nVanilla Surveys using QField\nACIAR News: Helping Tonga recover from Cyclone Harold, June 2019"
+  },
+  {
+    "objectID": "outputs.html#publications",
+    "href": "outputs.html#publications",
+    "title": "Outputs",
+    "section": "Publications",
+    "text": "Publications\n\nDuncan et al. (2022) - An open-source mobile geospatial platform for agricultural landscape mapping: a case study of wall-to-wall farm systems mapping in Tonga.\nDuncan et al. (2020) - Managing multifunctional landscapes: Local insights from a Pacific Island Country context.\nDavies et al. (2019) - An Open-Source Mobile Geospatial Platform for Promoting Climate-Smart Livelihood-Landscape Systems in Fiji and Tonga.\nHaworth et al. (2018) - Geographic Information and Communication Technologies for Supporting Smallholder Agriculture and Climate Resilience.\nBiggs et al. (2015 - Sustainable development and the water–energy–food nexus: A perspective on livelihoods."
+  },
+  {
+    "objectID": "outputs.html#conferences-and-workshops",
+    "href": "outputs.html#conferences-and-workshops",
+    "title": "Outputs",
+    "section": "Conferences and Workshops",
+    "text": "Conferences and Workshops\n\n2022\n\nDuncan et al. (2022) - Maplandscape - an open-source geospatial workflow for agricultural landscape monitoring. FOSS4G 2022, Firenze, Italy.\nDavies and Duncan et al. (2022) - An Open-Source Mobile Geospatial Platform for Agricultural Landscape Mapping: A Case Study Of Wall-to-Wall Farm Systems Mapping in Tonga. FOSS4G 2022, Firenze, Italy.\nVarea and Duncan (2022) - QField, QFieldCloud, and maplandscape for data collection - Field workshop. SPC, Lautoka, Fiji.\nVarea (2022) - QField and QFieldCloud for coconut surveys - Field training. SPC, Vanua Levu, Fiji.\nDuncan (2022) - QField / OPENGIS.ch - seminar.\n\n\n\n2021\n\nVarea and Duncan (2021) - QField, QFieldCloud, and maplandscape for data collection - Training. SPC, Fiji.\nDuncan (2021) - QField - Workshop. FOSS4G 2021, Perth Hub.\nSaipaia, Duncan, and Davies (2021) - FOSS4G 2021 - Buenos Aires, Online.\nVarea and Duncan (2021) - QField Crop Survey - Training. Ministry of Agriculture, Fiji.\n\n\n\n2020\n\nVarea et al (2020) - Using the QField open-source mobile geospatial tool for promoting climate-smart livelihood-landscape systems in Fiji. FOSS4G Oceania - Suva Hub.\nDuncan et al (2020) - Mapping Tongan farms with QField. FOSS4G Oceania - Perth Hub.\nDavies et al (2020) - A Dynamic, Cloud-based LULC Mapping Methodology Using Sentinel-2 to Support Climate-Smart Landscape Management in Vulnerable Fijian Communities. American Geophysical Union Fall Meeting.\nVarea and Duncan (2020) - QField Crop Survey - Training. Ministry of Agriculture, Fiji.\nDuncan and Saipaia (2020) - QGIS and QField - mobile GIS data collection project set up. Ministry of Lands and Natural Resources, Tongatapu.\nDuncan and Saipaia (2020) - Tonga Crop Survey - Training. Ministry of Agriculture, Food, Forests, and Fisheries, Vava’u.\nDuncan and Saipaia (2020) - Tonga Crop Survey - Training. Ministry of Agriculture, Food, Forests, and Fisheries, Tongatapu.\nVarea and Davies (2020) - Collecting Ground Truth Data. Ministry of Forests, Fiji.\nVarea and Duncan (2020) - QGIS and QField - mobile GIS data collection project set up. Ministry of Forests, Fiji.\n\n\n\n2019\n\nDuncan and Wales (2019) - Climate-smart landscapes for promoting sustainability of Pacific Island agricultural systems. Monthly seminar series, Pacific Centre for Environment and Sustainable Development (PACE-SD), Suva, Fiji.\nDuncan and Varea (2019) - An ICT4D approach to develop a geospatial platform for climate-smart landscape management in Fiji and Tonga. Pacific GIS and Remote Sensing User Conference, Suva, Fiji.\nBiggs and Boruff (2019) - Using geospatial information and technologies for promoting climate-smart landscapes in Fiji and Tonga. Curtin University Seminar Series.\nBoruff et al. (2019) - Understanding information needs and constraints in support of a mobile geospatial platform promoting climate-smart landscapes in Fiji and Tonga. Global Science Conference, Bali, Indonesia\nDavies (2019) - Remote Sensing in the Cloud: Land cover mapping of Ba, Fiji using Google Earth Engine and Sentinel-2. Thinking Space Seminar Series, Sydney University.\n\n\n\n2018\n\nBruce et al. (2018) - Earth observation for assessing environmental livelihood security in coastal mangrove communities. American Geophysical Union, Washington DC.\nDavies et al. (2018) - Fiji Dynamic Land Use/Land Cover Mapping Workshop. Univerity of the South Pacific, Suva.\nDavies et al. (2018) - Tonga Dynamic Land Use/Land Cover Mapping Workshop. Ministry of Agricultre, Forestry and Fisheries, Tongatapu.\nDavies and Wales (2018) - Mapping Landscape Diversity in the Ba Catchment: A Remote Sensing Approach using Google Earth Engine. Pacific GIS and Remote Sensing User Conference, Suva, Fiji."
+  },
+  {
+    "objectID": "examples.html",
+    "href": "examples.html",
+    "title": "Using maplandscape",
+    "section": "",
+    "text": "Oct 3, 2020\n\n\nKevin Davies\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSep 1, 2022\n\n\nAhi Saipaia\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSep 5, 2022\n\n\nJohn Duncan\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAug 1, 2020\n\n\nAhi Saipaia, Leody Vainikolo, John Duncan\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "",
+    "section": "",
+    "text": "We’re a team of geographers, spatial data scientists, and agricultural officials based at the University of Western Australia, University of Sydney, The University of the South Pacific, Ministry of Agriculture, Food, and Forests of The Kingdom of Tonga, and The Pacific Community.\n\n\n\n\n\nEleanor Bruce\n\n\n\n\n\nBryan Boruff\n\n\n\n\n\nAndreas Neef\n\n\n\n\n\nAhi Saipaia\n\n\n\n\n\n\n\nBen Radford\n\n\n\n\n\nEllie Biggs\n\n\n\n\n\nHelena Shojaei\n\n\n\n\n\nJohn Connell\n\n\n\n\n\n\n\nJohn Duncan\n\n\n\n\n\nJan Helsen\n\n\n\n\n\nJalesi Mateboto\n\n\n\n\n\nKevin Davies\n\n\n\n\n\n\n\nLeody Vainikolo\n\n\n\n\n\nMika Saipaia\n\n\n\n\n\nNathan Wales\n\n\n\n\n\nPyone Myat Thu\n\n\n\n\n\n\n\nNatasha Pauli\n\n\n\n\n\nRenata Varea\n\n\n\n\n\nSharyn Hickey\n\n\n\n\n\nViliami Manu"
+  },
+  {
+    "objectID": "docs/reference.html",
+    "href": "docs/reference.html",
+    "title": "Reference",
+    "section": "",
+    "text": "Here you will find the technical reference material for software and applications developed through this project, which is all open source and published on GitHub.\nYou will also find information that explains how to set up servers and deploy applications. All applications are deployed using docker and can be run on local hardware or using cloud providers."
+  },
+  {
+    "objectID": "docs/reference.html#maplandscape---dashboard",
+    "href": "docs/reference.html#maplandscape---dashboard",
+    "title": "Reference",
+    "section": "maplandscape - dashboard",
+    "text": "maplandscape - dashboard\nBuilt on top of the QFieldCloud API, the maplandscape dashboard apps allow users to view their QField data on web maps, interactive tables, and charts. They can use these web applications to perform GIS and relational database style operations on their data and specify automated reporting routines.\nmaplandscape’s source code is published on GitHub.\n\n\n\n\n\n\nNote\n\n\n\nThe maplandscape dashboard is developed as an R package with a suite of functions useful for building custom dashboards and web map tools that use data retrieved from QFieldCloud. Check out the package’s documentation."
+  },
+  {
+    "objectID": "docs/reference.html#qfieldcloudr",
+    "href": "docs/reference.html#qfieldcloudr",
+    "title": "Reference",
+    "section": "qfieldcloudR",
+    "text": "qfieldcloudR\nqfieldcloudR is an R package that provides a set of helper functions for interacting with the QFieldCloud API including querying projects, retrieving data, and user management.\nIt can be used for accessing QFieldCloud data for programmatic analysis with spatial packages such as sf within R or to build web apps that support user interaction with QFieldCloud via Shiny.\n\n\n\n\n\n\nTip\n\n\n\nYou can install qfieldcloudR and used it in your R workflows:\n# install.packages(\"devtools\")\ndevtools::install_github(\"livelihoods-and-landscapes/qfieldcloudR\")\nAlso, be sure to check out the official qfieldcloud-sdk, which is developed by OPENGIS.ch and is a fully featured client for interacting with the QFieldCloud API."
+  },
+  {
+    "objectID": "docs/guides.html",
+    "href": "docs/guides.html",
+    "title": "",
+    "section": "",
+    "text": "Important\n\n\n\nComing soon!"
+  },
+  {
+    "objectID": "docs/guides.html#minimising-data-collection-error",
+    "href": "docs/guides.html#minimising-data-collection-error",
+    "title": "",
+    "section": "Minimising data collection error",
+    "text": "Minimising data collection error"
+  },
+  {
+    "objectID": "docs/guides.html#qfield-for-household-surveys",
+    "href": "docs/guides.html#qfield-for-household-surveys",
+    "title": "",
+    "section": "QField for household surveys",
+    "text": "QField for household surveys"
+  },
+  {
+    "objectID": "docs/guides.html#offline-basemaps",
+    "href": "docs/guides.html#offline-basemaps",
+    "title": "",
+    "section": "Offline basemaps",
+    "text": "Offline basemaps"
+  },
+  {
+    "objectID": "docs/guides.html#ground-truth-data-for-land-cover-classification",
+    "href": "docs/guides.html#ground-truth-data-for-land-cover-classification",
+    "title": "",
+    "section": "Ground truth data for land cover classification",
+    "text": "Ground truth data for land cover classification"
+  },
+  {
+    "objectID": "docs/tutorials.html",
+    "href": "docs/tutorials.html",
+    "title": "",
+    "section": "",
+    "text": "These tutorials will teach you how to use the maplanscape workflow to set up a data collection project, map features in-the-field and capture information using digital forms, share the project with a team of collaborators, visualise project data on web maps and dashboards, and automate reporting tasks that use field data.\nThe tutorials are based on an example of setting up a farm survey in Fiji or Tonga. However, the concepts and skills you will learn can be applied to a range of data collection tasks such as household surveys, baseline and project monitoring and evaluation, ground truth data generation for remote sensing and cover classification, or detailed GIS mapping."
+  },
+  {
+    "objectID": "docs/tutorials.html#create-data-collection-projects",
+    "href": "docs/tutorials.html#create-data-collection-projects",
+    "title": "",
+    "section": "Create data collection projects",
+    "text": "Create data collection projects\nLearn how to use QGIS to create a data collection project for use with the mobile GIS application QField. Push the project to QFieldCloud to share with large teams of data collectors and automatically sync project data collected across many mobile devices.\nThis tutorial demonstrates the key concepts and process required to create a data collection project. You will learn how to:\n\ncreate a database file to store project data\nstyle and theme map layers\ncreate digital forms for collecting non-spatial data\nuse online and offline basemaps\npush and synchronise projects with QFieldCloud\ntips and tricks for minimising data collection error\n\n\nGet started\n\n\n\n\nInstall QGIS on your computer.\n\n\n\n\n\n\nDownload the tutorial data:\n\nFiji example or Tonga example\n\n\n\n\n\n\n\nStart the tutorial here.\n\n\n\n\n\n\nFurther reading\nExplore the official QField docs for getting started with QFieldCloud and QFieldSync. The QField How-to guides have lots of tips and examples for creating great data collection projects."
+  },
+  {
+    "objectID": "docs/tutorials.html#collect-data-with-qfield",
+    "href": "docs/tutorials.html#collect-data-with-qfield",
+    "title": "",
+    "section": "Collect data with QField",
+    "text": "Collect data with QField\n\nGet started\n\n\nFurther reading"
+  },
+  {
+    "objectID": "docs/tutorials.html#qfieldcloud-for-project-management",
+    "href": "docs/tutorials.html#qfieldcloud-for-project-management",
+    "title": "",
+    "section": "QFieldCloud for project management",
+    "text": "QFieldCloud for project management\nQFieldCloud is a Django based service developed by OPENGIS.ch for synchronising field data from data collectors using QField with a central project, managing user accounts, and versioning project data.\n\nOPENGIS.ch’s hosted version\nOPENGIS.ch provide hosted version of QFieldCloud. It is easy to get up and running using this service. You just need to sign up at QFieldCloud, choose a plan, and start a collaborative data collection project. This service is also kept in-sync with development of QField.\nFollow the QFieldCloud get started and advanced setup tutorials to learn how to use OPENGIS.ch’s hosted QFieldCloud service.\n\n\nManage your own QFieldCloud instance\nFollow the instructions on the QFieldCloud GitHub repo to deploy your own instance of QFieldCloud.\nTo manage your own instance of QFieldCloud, you can use the maplandscape admin web application.\n\nGet started\n\n\n\n\nUse docker and Shiny Proxy to deploy maplandscape admin anywhere.\n\n\n\n\n\n\nA short tutorial on using maplandscape-admin here.\n\n\n\n\nThis tutorial will show you how to use maplandscape-admin to browse project data and collaborators, invite collaborators to join a project, assign user roles and permissions to collaborators on a project, and reset or change your QFieldCloud password."
+  },
+  {
+    "objectID": "docs/tutorials.html#geospatial-data-visualisation-and-analysis",
+    "href": "docs/tutorials.html#geospatial-data-visualisation-and-analysis",
+    "title": "",
+    "section": "Geospatial data visualisation and analysis",
+    "text": "Geospatial data visualisation and analysis"
+  },
+  {
+    "objectID": "docs/docs.html",
+    "href": "docs/docs.html",
+    "title": "",
+    "section": "",
+    "text": "maplandscape is a workflow for:\n\nfield-based mapping and survey data collection.\nusing field data for monitoring, management, and decision making.\n\n\nThe maplandscape workflow uses QField mobile GIS for quick and easy data collection, QFieldCloud for large team user and data management, and QGIS or custom web mapping and analytics tools for data analysis and reporting.\nHere, you will find:\n\nTutorials that teach you how to use the applications that comprise maplandscape and create, implement, and manage large team mapping and survey campaigns.\nBest Practice Guides that demonstrate tips and tricks when using QField for various data collection projects.\nReference for the technical details to use and extend the software.\n\n\nStart the tutorials"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "maplandscape is a stack of open-source applications for mapping and monitoring diverse agricultural landscapes.\nThe workflow can be used for geospatial and non-spatial data collection tasks, large team data collection efforts, rapid mapping after disasters, and household surveys for monitoring programs and projects.\nIt is developed by a collaboration of agricultural landscape stakeholders and spatial scientists in Tonga, Fiji, and Australia. Funding and support was provided by the Australian Centre for International Agricultural Research through the Livelihoods and Landscapes project.\nmaplandscape has been widely used in Tonga with ongoing work in Fiji. Over 10,000 farms have been mapped across a range of applications including cropping systems monitoring to disaster response.\n\n\n\n\n\n\n\nBuilding the capacity of landscape stakeholders to use geospatial technologies.\n\n\n\n\n\n\n\n\n\nGenerating datasets that reflect the condition of mixed land use systems.\n\n\n\n\n\n\n\n\n\nEnsuring landscape data informs decision making.\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nRead the maplandscape paper presented at FOSS4G 2022 for all the details.\n\n\n\n\n\nOpen-source mobile, cloud, and desktop geospatial apps are used for data collection, analysis, and reporting tasks.\nIt was developed with Tonga’s Ministry of Agriculture, Food, and Forests to support their needs for capturing detailed information about farm and cropping systems.\n\n\nKey features:\n\nMaps and forms for spatial and non-spatial data collection.\nOn-mobile-device GIS querying and data entry.\nComplex form navigation and widgets for data entry.\nOnline and offline data collection.\nGIS functionality in the field.\nSupport for large team collaborative data collection.\nSecurity and user management tools.\nView field data on web maps, charts, and interactive tables.\nAutomated reporting routines.\nDashboard tools to quickly view and analyse spatial data.\n\n\n\n\n\n\nMapping features using QField mobile GIS. Basemap: OSMBright from OpenMapTiles\n\n\n\n\n\n\n\n\nCollect geospatial data in-the-field with QField.\n\n \n\n\n\n\n\n\n\n\n\nField data visualisation and analysis.\n\n \n\n\n\n\n\n\n\n\n\n\nLearn: tutorials to learn how to use maplandscape for your data collection tasks.\n\n\nDocs\n\n\n\n\n\n\nImpact: read user stories about using maplandscape.\n\n\nExamples\n\n\n\n\n\n\nData: see datasets collected using maplandscape on Pacific Data Hub.\n\n\nPacific Data Hub"
+  },
+  {
+    "objectID": "examples/vanilla-survey/vanilla-survey.html",
+    "href": "examples/vanilla-survey/vanilla-survey.html",
+    "title": "Vanilla Surveys with QField",
+    "section": "",
+    "text": "In May and June 2020, a team of extension officers from Tonga’s Ministry of Agriculture, Food, and Forests conducted a spatial survey of vanilla plantations on the island group of Vava’u.\nThe extent of each vanilla plantation on Vava’u was mapped using QField and various plantation management attributes were recorded such as variety and management condition. Maps on vanilla plantations were explored using QGIS and on web maps.\nA large proportion of vanilla plantations were found to be in a neglected management conidtion; this is problematic as vanilla is a key commercial crop for the agricultural economy on Vava’u. Further work focused on understanding challenges farmers were facing which led to vanilla plantations falling into a neglected state.\nRead more about the vanilla survey.\n\n\n\n\n\n\nViewing vanilla survey data on a web map.\n\n\n\n\n\n\n\nMapping a vanilla plantation with QField."
+  },
+  {
+    "objectID": "examples/tonga-crop-survey/tonga-crop-survey.html",
+    "href": "examples/tonga-crop-survey/tonga-crop-survey.html",
+    "title": "Tonga Crop Survey",
+    "section": "",
+    "text": "Each year, the Ministry of Agriculture, Food, and Forests in Tonga conduct a crop survey to record the area allocated to different crops and the number of crops planted. The Ministry use this information for their reporting, informing policies and programs, and allocating government resources. This information is also used in food security responses after disaster events.\nTraditionally, this data was captured using paper surveys by teams of extension officers, was aggregated at the block level, and was manually typed up into spread sheets. This was a costly process in terms of time and there was no data sharing and management system in-plae. Further, this data did not provide a spatially detailed view of the diverse cropping and farming systems that span Tonga’s rural landscapes.\nSince June 2019, Ministry staff have been working with teams from Australian and Pacific universities to develop a digital farm mapping workflow and to build the capacity of extension officers to map farms using mobile geospatial data collection apps, implement large team collaborative data collection projects, and analyse data using web maps and dashboards.\n\n\n\nMapping farms in-the-field with QField.\n\n\nThis work entailed a mix of agile and participatory software development, using the ICT4D method, and several online, classroom, and in-the-field training sessions. This led to the development of the maplandscape workflow, which uses QField for data collection, QFieldCloud for team and project management, and web map and dashboard applications for data visualisation and analysis.\nIn the latter half of 2020, a team of 10 data collectors on the island group of Vava’u mapped over 2,700 fields. This data permitted analysts in the Ministry to create different views of the island group’s mixed cropping systems.\n\n\n\nViewing Vava’u’s kava croplands on web maps.\n\n\nThis information was used to track change in land use through time; it was possible to map how kava dominant cropping systems were replacing diverse root crop and fruit tree systems. This information was also valuable for marketing of commercial crops; Ministry staff could quickly query the number of commercial crops planted, such as watermelon, and see where they were being grown.\n\n\n\n\n\n\nThe survey allows Ministry officials to created detailed views of cropping systems.\n\n\n\n\n\n\n\nOfficials mapping fields on Tongatapu.\n\n\n\n\n\nFollowing the Vava’u crop survey, surveys were undertaken on ’Eua, Ha’apai, and Tongatapu. On Tongatapu a team of over 40 data collectors mapped the island group’s cropping, livestock, fallow, and agro-forestry systems. This generated a database of over 12,000 spatial features with rich attribute information describing their agricultural management and use. This data was used in initial assessments of the damage to croplands and food supply following the Hunga Tonga Hunga Ha’apai volcanic eruption and tsunami in 2022.\n\n\n\nResults from the crop surveys were presented to, and discussed, with farming communities. This included preparing reports, community presentations, and interactive exploration of crop survey data. These sessions were invaluable in helping interpret the crop survey data; for example, viewing data on area of fallow land with grower groups and community leaders allowed MAFF officials to discuss cultivation challenges with farming groups."
+  },
+  {
+    "objectID": "examples/ground-truth/ground-truth-fiji.html",
+    "href": "examples/ground-truth/ground-truth-fiji.html",
+    "title": "Ground Truth Data Collection",
+    "section": "",
+    "text": "In collaboration with Fiji’s Ministry of Forests, a field team used QField to collect ground truth data in the Ba River Catchment and Nalotawa ERPD site. The ground truth data was used to help image analysts generate training and test data for developing machine learning models to classify land cover from satellite images.\nYou can read more about this work on the QField blog.\n\n\n\n\n\n\n10 m spatial resolution land cover map generated with ground truth data collected using QField.\n\n\n\n\n\n\n\nField team collecting ground truth data in Ba."
+  },
+  {
+    "objectID": "examples/hunga-haapai/hunga-haapai.html",
+    "href": "examples/hunga-haapai/hunga-haapai.html",
+    "title": "Hunga Tonga-Hunga Ha’apai Volcanic Eruption",
+    "section": "",
+    "text": "In January 2022 the Hunga Tonga-Hunga Ha’apai submarine volcano erupted. Ash clouds from the eruption and the subsequent tsunami damaged croplands on the Tongatapu and Ha’apai island groups.\nMinistry of Agriculture, Food, and Forests staff used the Tonga Crop Survey data, which was collected using the maplandscape workflow, to perform an initial assessment of damage to the food supply.\n\n\n\nCroplands damaged after Hunga Tonga-Hunga Ha’apai eruption.\n\n\nThe maplandscape workflow uses QField for mobile data collection. QField has full online and offline modes; this enabled Ministry staff to conduct damage mapping activities and conduct surveys to monitor how government resources for recovering croplands were being used while the countries internet was cut off. The eruption severed the undersea cable which connected Tonga to the internet.\nIn the months following the eruption, Ministry staff used maplandscape to interview community leaders in areas affected by the eruption to ascertain loss and damage to croplands, harvested crops, and agricultural infrastructure. This information was used to compute relief payments.\n\n\n\nTrees damaged after Hunga Tonga-Hunga Ha’apai eruption."
+  }
+]

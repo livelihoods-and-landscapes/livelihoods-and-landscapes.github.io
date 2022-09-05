@@ -1,0 +1,12 @@
+[
+  {
+    "listing": "/examples.html",
+    "items": [
+      "/examples/ground-truth/ground-truth-fiji.html",
+      "/examples/hunga-haapai/hunga-haapai.html",
+      "/examples/tonga-crop-survey/tonga-crop-survey.html",
+      "/examples/vanilla-survey/vanilla-survey.html",
+      "/examples/seedling-distribution/seedling-distribution.html"
+    ]
+  }
+]
