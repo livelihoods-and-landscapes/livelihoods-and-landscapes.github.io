@@ -142,44 +142,44 @@
   {
     "objectID": "docs/tutorials.html",
     "href": "docs/tutorials.html",
-    "title": "",
+    "title": "Tutorials",
     "section": "",
     "text": "These tutorials will teach you how to use the maplanscape workflow to set up a data collection project, map features in-the-field, capture information using digital forms, share the project with a team of collaborators, visualise project data on web maps and dashboards, and automate reporting tasks that use field data.\nThe tutorials are based on an example of setting up a farm survey in Fiji or Tonga. However, the concepts and skills you will learn can be applied to a range of data collection tasks such as household surveys, baseline and project monitoring and evaluation, ground truth data generation for remote sensing and land cover classification, or detailed GIS mapping."
   },
   {
     "objectID": "docs/tutorials.html#create-data-collection-projects",
     "href": "docs/tutorials.html#create-data-collection-projects",
-    "title": "",
+    "title": "Tutorials",
     "section": "Create data collection projects",
     "text": "Create data collection projects\nLearn how to use QGIS to create a field data collection project to use with QField. Push the project to QFieldCloud to share with large teams of data collectors and automatically sync project data collected across many mobile devices.\nThis tutorial demonstrates the key concepts and process required to create a data collection project. You will learn how to:\n\ncreate a database file to store project data.\nstyle and theme map layers.\ncreate digital forms for collecting non-spatial data.\nuse online and offline basemaps.\npush and synchronise projects with QFieldCloud.\ntips and tricks for minimising data collection error.\n\n\nGet started\n\n\n\n\nInstall QGIS on your computer.\n\n\n\n\n\n\nDownload the tutorial data:\n\nFiji example or Tonga example\n\n\n\n\n\n\n\nStart the tutorials: Fiji example or Tonga example\n\n\n\n\n\n\nFurther reading\nExplore the official QField docs for getting started with QFieldCloud and QFieldSync. The QField How-to guides have lots of tips and examples for creating great data collection projects."
   },
   {
     "objectID": "docs/tutorials.html#collect-data-with-qfield",
     "href": "docs/tutorials.html#collect-data-with-qfield",
-    "title": "",
+    "title": "Tutorials",
     "section": "Collect data with QField",
     "text": "Collect data with QField\n\nGet started\n\n\nFurther reading"
   },
   {
     "objectID": "docs/tutorials.html#qfieldcloud-for-project-management",
     "href": "docs/tutorials.html#qfieldcloud-for-project-management",
-    "title": "",
+    "title": "Tutorials",
     "section": "QFieldCloud for project management",
     "text": "QFieldCloud for project management\nQFieldCloud is a Django based service developed by OPENGIS.ch for synchronising field data from data collectors using QField with a central project, managing user accounts, and versioning project data.\n\nOPENGIS.ch’s hosted version\nOPENGIS.ch provide hosted version of QFieldCloud. It is easy to get up and running using this service. You just need to sign up at QFieldCloud, choose a plan, and start a collaborative data collection project. This service is also kept in-sync with development of QField.\nFollow the QFieldCloud get started and advanced setup tutorials to learn how to use OPENGIS.ch’s hosted QFieldCloud service.\n\n\nManage your own QFieldCloud instance\nFollow the instructions on the QFieldCloud GitHub repo to deploy your own instance of QFieldCloud.\nTo manage your own instance of QFieldCloud, you can use the maplandscape admin web application.\n\nGet started\n\n\n\n\nUse docker and Shiny Proxy to deploy maplandscape* admin anywhere.\n\n\n\n\n\n\nA short tutorial on using maplandscape-admin here.\n\n\n\n\nThis tutorial will show you how to use maplandscape-admin to browse project data and collaborators, invite collaborators to join a project, assign user roles and permissions to collaborators on a project, and reset or change your QFieldCloud password."
   },
   {
     "objectID": "docs/tutorials.html#geospatial-data-visualisation-and-analysis",
     "href": "docs/tutorials.html#geospatial-data-visualisation-and-analysis",
-    "title": "",
+    "title": "Tutorials",
     "section": "Geospatial data visualisation and analysis",
     "text": "Geospatial data visualisation and analysis\nThis tutorial will show you how to view and analyse QField data using the maplandscape dashboard in your web browser. You will learn how to explore QField data on web maps, interactive tables, and charts and use report automation tools.\nThere are tools for customising web maps and charts for QField data visualisation.\nYou can also apply geospatial and table analysis operations on your QField data to transform it into formats ready for analysis, summarising, and reporting. Specifically, there are simple and easy to use options for:\n\nfiltering rows of a data table.\nadding new columns to a data table.\njoining two spatial layers.\njoining two tables.\ngroup-by and summarise to generate summary tables.\n\nIn this tutorial you will download some crop survey data from the island group of Vava’u and spatial layers of Tonga’s blocks and village boundaries from a QFieldCloud project. You will learn how to use filter operations to subset rows from the crop survey data corresponding to a type of cropping system, use the add column functions to create new columns in a data table describing plant density per-field, use spatial and non-spatial joins to attach block and village name columns to the crop survey layer, and create village summaries of crop and plant number. You will also learn how to export batches of summary tables and charts to assist with report generation.\n\n\n\n\nA QField project containing the data required for the tutorial.\n\n\n\n\n\n\nStart the tutorial using the maplandscape dashboard and web map tools to analyse crop survey data here."
   },
   {
     "objectID": "docs/docs.html",
     "href": "docs/docs.html",
-    "title": "",
+    "title": "Documentation and tutorials",
     "section": "",
-    "text": "maplandscape is a workflow for:\n\nfield-based mapping and survey data collection.\nusing field data for monitoring, management, and decision making.\n\n\nThe maplandscape workflow uses QField mobile GIS for quick and easy data collection, QFieldCloud for large team user and data management, and QGIS or custom web mapping and analytics tools for data analysis and reporting.\nHere, you will find:\n\nTutorials that teach you how to use the applications that comprise maplandscape and create, implement, and manage large team mapping and survey campaigns.\nBest Practice Guides that demonstrate tips and tricks when using QField for various data collection projects.\nReference for the technical details to use and extend the software.\n\n\nStart the tutorials"
+    "text": "field-based mapping and survey data collection.\nusing field data for monitoring, management, and decision making.\n\n\nThe maplandscape workflow uses QField mobile GIS for quick and easy data collection, QFieldCloud for large team user and data management, and QGIS or custom web mapping and analytics tools for data analysis and reporting.\nHere, you will find:\n\nTutorials that teach you how to use the applications that comprise maplandscape and create, implement, and manage large team mapping and survey campaigns.\nBest Practice Guides that demonstrate tips and tricks when using QField for various data collection projects.\nReference for the technical details to use and extend the software.\n\n\nStart the tutorials"
   },
   {
     "objectID": "about.html",
