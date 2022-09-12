@@ -79,7 +79,7 @@
   {
     "objectID": "team.html",
     "href": "team.html",
-    "title": "",
+    "title": "Livelihoods and Landscapes",
     "section": "",
     "text": "We’re a team of geographers, spatial data scientists, and agricultural officials based at the University of Western Australia, University of Sydney, The University of the South Pacific, Ministry of Agriculture, Food, and Forests of The Kingdom of Tonga, and The Pacific Community.\n\n\n\n\n\nEleanor Bruce\n\n\n\n\n\nBryan Boruff\n\n\n\n\n\nAndreas Neef\n\n\n\n\n\nAhi Saipaia\n\n\n\n\n\n\n\nBen Radford\n\n\n\n\n\nEllie Biggs\n\n\n\n\n\nHelena Shojaei\n\n\n\n\n\nJohn Connell\n\n\n\n\n\n\n\nJohn Duncan\n\n\n\n\n\nJan Helsen\n\n\n\n\n\nJalesi Mateboto\n\n\n\n\n\nKevin Davies\n\n\n\n\n\n\n\nLeody Vainikolo\n\n\n\n\n\nMika Saipaia\n\n\n\n\n\nNathan Wales\n\n\n\n\n\nPyone Myat Thu\n\n\n\n\n\n\n\nNatasha Pauli\n\n\n\n\n\nRenata Varea\n\n\n\n\n\nSharyn Hickey\n\n\n\n\n\nViliami Manu"
   },
@@ -107,35 +107,35 @@
   {
     "objectID": "docs/guides.html",
     "href": "docs/guides.html",
-    "title": "",
+    "title": "Livelihoods and Landscapes",
     "section": "",
     "text": "Important\n\n\n\nComing soon!"
   },
   {
     "objectID": "docs/guides.html#minimising-data-collection-error",
     "href": "docs/guides.html#minimising-data-collection-error",
-    "title": "",
+    "title": "Livelihoods and Landscapes",
     "section": "Minimising data collection error",
     "text": "Minimising data collection error"
   },
   {
     "objectID": "docs/guides.html#qfield-for-household-surveys",
     "href": "docs/guides.html#qfield-for-household-surveys",
-    "title": "",
+    "title": "Livelihoods and Landscapes",
     "section": "QField for household surveys",
     "text": "QField for household surveys"
   },
   {
     "objectID": "docs/guides.html#offline-basemaps",
     "href": "docs/guides.html#offline-basemaps",
-    "title": "",
+    "title": "Livelihoods and Landscapes",
     "section": "Offline basemaps",
     "text": "Offline basemaps"
   },
   {
     "objectID": "docs/guides.html#ground-truth-data-for-land-cover-classification",
     "href": "docs/guides.html#ground-truth-data-for-land-cover-classification",
-    "title": "",
+    "title": "Livelihoods and Landscapes",
     "section": "Ground truth data for land cover classification",
     "text": "Ground truth data for land cover classification"
   },
@@ -186,7 +186,7 @@
     "href": "about.html",
     "title": "Welcome",
     "section": "",
-    "text": "maplandscape is a stack of open-source applications for mapping and monitoring diverse agricultural landscapes.\nThe workflow can be used for geospatial and non-spatial data collection tasks, large team data collection efforts, rapid mapping after disasters, and household surveys for monitoring programs and projects.\nIt is developed by a collaboration of agricultural landscape stakeholders and spatial scientists in Tonga, Fiji, and Australia. Funding and support was provided by the Australian Centre for International Agricultural Research through the Livelihoods and Landscapes project.\nmaplandscape has been widely used in Tonga with ongoing work in Fiji. Over 10,000 farms have been mapped across a range of applications including cropping systems monitoring to disaster response.\n\n\n\n\n\n\n\nBuilding the capacity of landscape stakeholders to use geospatial technologies.\n\n\n\n\n\n\n\n\n\nGenerating datasets that reflect the condition of mixed land use systems.\n\n\n\n\n\n\n\n\n\nEnsuring landscape data informs decision making.\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nRead the maplandscape paper presented at FOSS4G 2022 for all the details.\n\n\n\n\n\nOpen-source mobile, cloud, and desktop geospatial apps are used for data collection, analysis, and reporting tasks.\nIt was developed with Tonga’s Ministry of Agriculture, Food, and Forests to support their needs for capturing detailed information about farm and cropping systems.\n\n\nKey features:\n\nMaps and forms for spatial and non-spatial data collection.\nOn-mobile-device GIS querying and data entry.\nComplex form navigation and widgets for data entry.\nOnline and offline data collection.\nGIS functionality in the field.\nSupport for large team collaborative data collection.\nSecurity and user management tools.\nView field data on web maps, charts, and interactive tables.\nAutomated reporting routines.\nDashboard tools to quickly view and analyse spatial data.\n\n\n\n\n\n\nMapping features using QField mobile GIS. Basemap: OSMBright from OpenMapTiles\n\n\n\n\n\n\n\n\nCollect geospatial data in-the-field with QField.\n\n \n\n\n\n\n\n\n\n\n\nField data visualisation and analysis.\n\n \n\n\n\n\n\n\n\n\n\n\nLearn: tutorials to learn how to use maplandscape for your data collection tasks.\n\n\nDocs\n\n\n\n\n\n\nImpact: read user stories about using maplandscape.\n\n\nExamples\n\n\n\n\n\n\nData: see datasets collected using maplandscape on Pacific Data Hub.\n\n\nPacific Data Hub"
+    "text": "maplandscape is a stack of open-source applications for mapping and monitoring diverse agricultural landscapes.\nThe workflow can be used for geospatial and non-spatial data collection tasks, large team data collection efforts, rapid mapping after disasters, and household surveys for monitoring programs and projects.\nIt is developed by a collaboration of agricultural landscape stakeholders and spatial scientists in Tonga, Fiji, and Australia. Funding and support was provided by the Australian Centre for International Agricultural Research through the Livelihoods and Landscapes project.\nmaplandscape has been widely used in Tonga with ongoing work in Fiji. Over 10,000 farms have been mapped across a range of applications including cropping systems monitoring to disaster response.\n\n\n\n\n\n\n\nBuilding the capacity of landscape stakeholders to use geospatial technologies.\n\n\n\n\n\n\n\n\n\nGenerating datasets that reflect the condition of mixed land use systems.\n\n\n\n\n\n\n\n\n\nEnsuring landscape data informs decision making.\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nRead the maplandscape paper presented at FOSS4G 2022 for all the details.\n\n\n\n\n\nOpen-source mobile, cloud, and desktop geospatial apps are used for data collection, analysis, and reporting tasks.\nIt was developed with Tonga’s Ministry of Agriculture, Food, and Forests to support their needs for capturing detailed information about farm and cropping systems.\n\n\nKey features:\n\nMaps and forms for spatial and non-spatial data collection.\nOn-mobile-device GIS querying and data entry.\nComplex form navigation and widgets for data entry.\nOnline and offline data collection.\nGIS functionality in the field.\nSupport for large team collaborative data collection.\nSecurity and user management tools.\nView field data on web maps, charts, and interactive tables.\nAutomated reporting routines.\nDashboard tools to quickly view and analyse spatial data.\n\n\n\n\n\n\nMapping features using QField mobile GIS. Basemap: OSMBright from OpenMapTiles\n\n\n\n\n\n\n\n\nCollect geospatial data in-the-field with QField.\n\n\n\n\n\n\n\n\n\nField data visualisation and analysis.\n\n\n\n\n\n\n\n\n\n\nLearn: tutorials to learn how to use maplandscape for your data collection tasks.\n\n\nDocs\n\n\n\n\n\n\nImpact: read user stories about using maplandscape.\n\n\nExamples\n\n\n\n\n\n\nData: see datasets collected using maplandscape on Pacific Data Hub.\n\n\nPacific Data Hub"
   },
   {
     "objectID": "examples/vanilla-survey/vanilla-survey.html",
