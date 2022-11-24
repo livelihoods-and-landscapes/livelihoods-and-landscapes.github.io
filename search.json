@@ -140,6 +140,13 @@
     "text": "Ground truth data for land cover classification"
   },
   {
+    "objectID": "docs/pacific-geo-conf.html",
+    "href": "docs/pacific-geo-conf.html",
+    "title": "Pacific Geospatial Conference",
+    "section": "",
+    "text": "2022-12-01, 09:00–12:00 (Pacific/Fiji), GIS Lab B - The University of the South Pacific.\n\n\n\nIntroduction to QField concepts\nData collection with QField - land cover ground truth data collection demo\nCreate a QField project - land cover ground truth data collection demo\nCreate web apps and complete analysis tasks using QFieldCloud API and qfieldcloud-sdk\nCreate a survey project - farm survey demo and tips and tricks for minimising data collection error\n\n\n\n\n\nQField installed on a mobile device (download from Google Play Store or the App Store)\nQGIS desktop GIS\nWeb browser\n\n\n\n\n\n\n\n\nQField and QGIS tutorial notes.\n\n\nSlides\n\n\n\n\n\n\nQFieldCloud and qfieldcloud-sdk tutorial on binderhub.\n\n\n  \n\n\n\n\n\n\nQFieldCloud and qfieldcloud-sdk tutorial on Google Colab.\n\n\n  \n\n\n\n\n\n\n\nThis workshop will provide an introduction to spatial data collection and survey projects using open-source geospatial software. This workshop is based around a data collection workflow for mapping agricultural landscapes developed in Tonga. Participants will work with a farm survey data collection project and a land cover ground truth survey project. This workshop is suitable for beginner users and will assume no prior experience using the various software applications.\nThe workshop will demonstrate how to use QField mobile GIS for mapping spatial features in-the-field, querying spatial reference layers, and capturing non-spatial attribute information using digital forms. It will discuss best practice for designing digital data collection forms to: improve data collector’s user experience, efficiently capture relevant information, and minimise data entry error. QFieldCloud features required to support large-team collaborative data collection and automated syncing and versioning of project data will be introduced. The workshop will also cover techniques for transitioning between online and offline data collection and using offline basemaps and reference layers. Finally, tools to access and analyse data collected in the field will be introduced including downloading QFieldCloud data and techniques to use the QFieldCloud API to develop web apps / maps. Participants will be directed towards further documentation and open learning resources to build on what they’ve learned during the workshop and to implement their own projects."
+  },
+  {
     "objectID": "docs/tutorials.html",
     "href": "docs/tutorials.html",
     "title": "Tutorials",

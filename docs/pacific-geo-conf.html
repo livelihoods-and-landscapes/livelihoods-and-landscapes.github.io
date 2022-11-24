@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Livelihoods and Landscapes - Reference</title>
+<title>Livelihoods and Landscapes - Pacific Geospatial Conference</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,7 +104,7 @@ ul.task-list{list-style: none;}
     </nav>
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Reference</h1>
+      <h1 class="quarto-secondary-nav-title">Pacific Geospatial Conference</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -134,12 +134,12 @@ ul.task-list{list-style: none;}
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../docs/reference.html" class="sidebar-item-text sidebar-link active">Reference</a>
+  <a href="../docs/reference.html" class="sidebar-item-text sidebar-link">Reference</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../docs/pacific-geo-conf.html" class="sidebar-item-text sidebar-link">PacificGeoConf</a>
+  <a href="../docs/pacific-geo-conf.html" class="sidebar-item-text sidebar-link active">PacificGeoConf</a>
   </div>
 </li>
     </ul>
@@ -151,8 +151,13 @@ ul.task-list{list-style: none;}
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#maplandscape---dashboard" id="toc-maplandscape---dashboard" class="nav-link active" data-scroll-target="#maplandscape---dashboard">maplandscape - dashboard</a></li>
-  <li><a href="#qfieldcloudr" id="toc-qfieldcloudr" class="nav-link" data-scroll-target="#qfieldcloudr">qfieldcloudR</a></li>
+  <li><a href="#in-the-field-data-collection-with-qfield-and-friends" id="toc-in-the-field-data-collection-with-qfield-and-friends" class="nav-link active" data-scroll-target="#in-the-field-data-collection-with-qfield-and-friends">In-the-field data collection with QField and friends</a>
+  <ul class="collapse">
+  <li><a href="#agenda" id="toc-agenda" class="nav-link" data-scroll-target="#agenda">Agenda</a></li>
+  <li><a href="#requirements" id="toc-requirements" class="nav-link" data-scroll-target="#requirements">Requirements</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link" data-scroll-target="#abstract">Abstract</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -161,7 +166,7 @@ ul.task-list{list-style: none;}
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Reference</h1>
+<h1 class="title d-none d-lg-block">Pacific Geospatial Conference</h1>
 </div>
 
 
@@ -175,48 +180,70 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<p>Here you will find the technical reference material for software and applications developed through this project, which is all open source and published on <a href="https://github.com/livelihoods-and-landscapes" class="external" target="_blank">GitHub</a>.</p>
-<p>You will also find information that explains how to set up servers and deploy applications. All applications are deployed using <a href="https://www.docker.com/" class="external" target="_blank">docker</a> and can be run on local hardware or using cloud providers.</p>
-<section id="maplandscape---dashboard" class="level2">
-<h2 class="anchored" data-anchor-id="maplandscape---dashboard">maplandscape - dashboard</h2>
-<p>Built on top of the QFieldCloud API, the <strong>maplandscape</strong> dashboard apps allow users to view their QField data on web maps, interactive tables, and charts. They can use these web applications to perform GIS and relational database style operations on their data and specify automated reporting routines.</p>
-<p><a href="https://livelihoods-and-landscapes.com/maplandscape" class="external" target="_blank"><strong>maplandscape’s</strong></a> source code is published on GitHub.</p>
-<div class="callout-note callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="in-the-field-data-collection-with-qfield-and-friends" class="level1">
+<h1>In-the-field data collection with QField and friends</h1>
+<p><a href="https://talks.osgeo.org/pacific-geospatial-conference-2022/talk/DJSYH9.ics" target="_blank"> <i class="bi bi-calendar"></i> </a></p>
+<p>2022-12-01, 09:00–12:00 (Pacific/Fiji), GIS Lab B - The University of the South Pacific.</p>
+<section id="agenda" class="level2">
+<h2 class="anchored" data-anchor-id="agenda">Agenda</h2>
+<ol type="1">
+<li>Introduction to QField concepts</li>
+<li>Data collection with QField - <em>land cover ground truth data collection demo</em></li>
+<li>Create a QField project - <em>land cover ground truth data collection demo</em></li>
+<li>Create web apps and complete analysis tasks using QFieldCloud API and qfieldcloud-sdk</li>
+<li>Create a survey project - <em>farm survey demo and tips and tricks for minimising data collection error</em></li>
+</ol>
+</section>
+<section id="requirements" class="level2">
+<h2 class="anchored" data-anchor-id="requirements">Requirements</h2>
+<ul>
+<li>QField installed on a mobile device (download from Google Play Store or the App Store)</li>
+<li>QGIS desktop GIS</li>
+<li>Web browser</li>
+</ul>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<div class="grid m-5">
+<div class="g-col-md-4 g-col-12">
+<div class="card border-secondary mb-3 h-100">
+<div class="card-body text-center position-relative">
+<p>QField and QGIS tutorial notes.</p>
 </div>
-<div class="callout-caption-container flex-fill">
-Note
+<div class="card-footer bg-transparent text-center">
+<p><a href="https://docs.google.com/presentation/d/e/2PACX-1vT-5VbMVya-EpVreVFkfqgmYFwcUI4pCBfXscHc--e4Kk7f2lJMyR6cuPMFqCq6551PZ_mUXumheRkR/pub?start=false&amp;loop=false&amp;delayms=3000" class="btn btn-primary external" target="_blank">Slides</a></p>
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<p>The <strong>maplandscape</strong> dashboard is developed as an R package with a suite of functions useful for building custom dashboards and web map tools that use data retrieved from QFieldCloud. Check out the package’s <a href="https://livelihoods-and-landscapes.com/maplandscape" class="external" target="_blank">documentation</a>.</p>
+</div>
+<div class="g-col-md-4 g-col-12">
+<div class="card border-secondary mb-3 h-100">
+<div class="card-body text-center position-relative">
+<p>QFieldCloud and qfieldcloud-sdk tutorial on binderhub.</p>
+</div>
+<div class="card-footer bg-transparent text-center">
+<p><a href="https://mybinder.org/v2/gh/livelihoods-and-landscapes/pacific-geo-conf-binder/HEAD" target="_blank"> <img src="https://mybinder.org/badge_logo.svg" alt="Open In Binder"> </a></p>
+</div>
+</div>
+</div>
+<div class="g-col-md-4 g-col-12">
+<div class="card border-secondary mb-3 h-100">
+<div class="card-body text-center">
+<p>QFieldCloud and qfieldcloud-sdk tutorial on Google Colab.</p>
+</div>
+<div class="card-footer bg-transparent text-center">
+<p><a href="https://colab.research.google.com/github/pacific-geo-conf-binder/blob/main/qfieldcloud_api_sdk_demo.ipynb" target="_blank"> <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"> </a></p>
+</div>
+</div>
 </div>
 </div>
 </section>
-<section id="qfieldcloudr" class="level2">
-<h2 class="anchored" data-anchor-id="qfieldcloudr">qfieldcloudR</h2>
-<p><a href="https://livelihoods-and-landscapes.com/qfieldcloudR/" class="external" target="_blank">qfieldcloudR</a> is an R package that provides a set of helper functions for interacting with the QFieldCloud API including querying projects, retrieving data, and user management.</p>
-<p>It can be used for accessing QFieldCloud data for programmatic analysis with spatial packages such as sf within R or to build web apps that support user interaction with QFieldCloud via Shiny.</p>
-<div class="callout-tip callout callout-style-default callout-captioned">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-caption-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>You can install <code>qfieldcloudR</code> and used it in your R workflows:</p>
-<pre><code># install.packages("devtools")
-devtools::install_github("livelihoods-and-landscapes/qfieldcloudR")</code></pre>
-<p>Also, be sure to check out the official <a href="https://github.com/opengisch/qfieldcloud-sdk-python" class="external" target="_blank">qfieldcloud-sdk</a>, which is developed by OPENGIS.ch and is a fully featured client for interacting with the QFieldCloud API.</p>
-</div>
-</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p><em>This workshop will provide an introduction to spatial data collection and survey projects using open-source geospatial software. This workshop is based around a data collection workflow for mapping agricultural landscapes developed in Tonga. Participants will work with a farm survey data collection project and a land cover ground truth survey project. This workshop is suitable for beginner users and will assume no prior experience using the various software applications.</em></p>
+<p><em>The workshop will demonstrate how to use QField mobile GIS for mapping spatial features in-the-field, querying spatial reference layers, and capturing non-spatial attribute information using digital forms. It will discuss best practice for designing digital data collection forms to: improve data collector’s user experience, efficiently capture relevant information, and minimise data entry error. QFieldCloud features required to support large-team collaborative data collection and automated syncing and versioning of project data will be introduced. The workshop will also cover techniques for transitioning between online and offline data collection and using offline basemaps and reference layers. Finally, tools to access and analyse data collected in the field will be introduced including downloading QFieldCloud data and techniques to use the QFieldCloud API to develop web apps / maps. Participants will be directed towards further documentation and open learning resources to build on what they’ve learned during the workshop and to implement their own projects.</em></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
